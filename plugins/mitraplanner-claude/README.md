@@ -5,6 +5,8 @@ Plan multi-day weddings with Claude. Two layers:
 - **Planning guidance (no account needed).** The `wedding-planning-guide` skill activates when someone is planning, budgeting or organising a wedding.
 - **Your real wedding data (Mitra Planner account).** The bundled MCP server connects Claude to guests, RSVPs, budget, vendors and quotes, payments, tasks, events and timelines in your Mitra Planner workspace, using your account's own permissions.
 
+Documentation for connecting any AI assistant (Claude, ChatGPT and others): https://www.mitraplanner.com/ai
+
 ## Contents
 
 | Path | Purpose |
