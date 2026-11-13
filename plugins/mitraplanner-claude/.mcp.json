@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mitraplanner": {
+      "type": "http",
+      "url": "https://www.mitraplanner.com/api/mcp"
+    }
+  }
+}

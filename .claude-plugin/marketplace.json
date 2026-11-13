@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "mitraplanner",
+  "description": "Wedding planning plugins from Mitra Planner.",
+  "owner": {
+    "name": "Mitra Planner",
+    "email": "milan@mitraplanner.com"
+  },
+  "plugins": [
+    {
+      "name": "mitraplanner",
+      "source": "./plugins/mitraplanner-claude",
+      "description": "Plan multi-day weddings with Claude: planning guidance, plus your Mitra Planner guests, RSVPs, budget, tasks and schedule when connected.",
+      "category": "productivity",
+      "homepage": "https://www.mitraplanner.com",
+      "keywords": ["wedding", "wedding-planning", "guests", "rsvp", "budget", "timeline"]
+    }
+  ]
+}

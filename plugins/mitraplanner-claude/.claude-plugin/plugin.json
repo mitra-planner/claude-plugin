@@ -1,0 +1,24 @@
+{
+  "name": "mitraplanner",
+  "displayName": "Mitra Planner",
+  "version": "1.0.0",
+  "description": "Plan multi-day weddings with Claude: practical planning guidance, plus your Mitra Planner guests, RSVPs, budget, tasks and schedule when connected.",
+  "author": {
+    "name": "Mitra Planner",
+    "url": "https://www.mitraplanner.com"
+  },
+  "homepage": "https://www.mitraplanner.com",
+  "repository": "https://github.com/mitra-planner/claude-plugin",
+  "privacyPolicyUrl": "https://www.mitraplanner.com/privacy",
+  "keywords": [
+    "wedding",
+    "wedding-planning",
+    "planner",
+    "guests",
+    "rsvp",
+    "budget",
+    "timeline",
+    "vendors"
+  ],
+  "license": "MIT"
+}
