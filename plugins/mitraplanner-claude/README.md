@@ -31,7 +31,7 @@ Then run `/mcp`, pick `mitraplanner` and sign in with your Mitra Planner account
 - **Runs:** nothing. It contains three text skills and one MCP server declaration. There are no hooks, scripts, executables, agents or commands, and no packages are installed.
 - **Sends and fetches:** once you connect it, Claude sends tool requests (for example "list guests" or "add a task") to `https://www.mitraplanner.com/api/mcp` over HTTPS and receives your wedding data back. You sign in with OAuth in the browser; the plugin stores no credentials and asks for no API keys. Without connecting, nothing is sent anywhere.
 - **Permissions:** it can only read and change what your Mitra Planner account is allowed to. It does not change Claude's permission settings.
-- **Personal data:** wedding data (guest names, RSVPs, budgets, schedules) passes through your Claude session and Mitra Planner's servers. Mitra Planner's [privacy policy](https://www.mitraplanner.com/privacy) applies.
+- **Personal data:** wedding data (guest names, RSVPs, budgets, schedules) passes through your Claude session and Mitra Planner's servers. Anything you add or change through Claude is saved in your Mitra Planner account like any other change and kept until you delete it or close your account. The plugin itself stores nothing. Mitra Planner's [privacy policy](https://www.mitraplanner.com/privacy) applies.
 
 Local development:
 
