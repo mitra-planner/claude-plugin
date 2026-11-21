@@ -44,7 +44,7 @@ claude plugin validate ./plugins/mitraplanner-claude
 
 ## Notes
 
-- The MCP endpoint, OAuth flow, usage limits and per-tool annotations are the same ones used by the ChatGPT plugin in `plugins/mitraplanner/`. Server behaviour lives in `src/lib/mcp/`.
+- The MCP endpoint, OAuth flow, usage limits and per-tool annotations are the same ones used by the ChatGPT plugin in `plugins/mitraplanner/` (live at https://chatgpt.com/plugins/plugin_asdk_app_6adb45238c648191be2d513e28b1366c). Server behaviour lives in `src/lib/mcp/`.
 - Write and destructive tools are annotated; the skills additionally require confirmation before deleting data or sending invitations.
 - Keep `version` in `.claude-plugin/plugin.json` in sync with releases. Claude Code only updates installed copies when the version changes.
 
